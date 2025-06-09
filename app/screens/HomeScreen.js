@@ -32,7 +32,7 @@ const styles = StyleSheet.create({
   topicCard: {
     padding: 20,
     backgroundColor: '#f0f0f0',
-    marginBottom: 10,
+    marginBottom: 30,
     borderRadius: 10,
     // shadow for iOS
     shadowColor: '#000',
@@ -40,7 +40,7 @@ const styles = StyleSheet.create({
     shadowRadius: 5,
     shadowOffset: { width: 0, height: 3 },
     // elevation for Android
-    elevation: 3,
+    elevation: 8,
   },
   topicText: { fontSize: 18 },
 });
