@@ -18,7 +18,7 @@ export default function HomeScreen() {
         <TouchableOpacity
           key={index}
           style={styles.topicCard}
-          activeOpacity={0.7}
+          activeOpacity={0.8}
           onPress={() => handleTopicPress(topic)}
         >
           <Text style={styles.topicText}>{topic}</Text>
